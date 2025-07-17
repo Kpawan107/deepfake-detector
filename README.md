@@ -35,7 +35,7 @@ Upload a video or image and receive Real/Fake prediction with confidence score.
 | FACTOR Only         | 68.00%   | 67.20%   |
 | CNN + FACTOR Fusion | 78.50%   | 76.80%   |
 
-- *ROC-AUC*: 87.38%  
+- *ROC-AUC*: 77.38%  
 - *Confusion Matrix*: True Real = 145, True Fake = 142  
 
 ## 📚 References
