@@ -1,0 +1,11 @@
+# Ignore virtual environment folder
+env/
+
+# Ignore only the 'data' folder
+data/
+
+# Optional: Python cache (recommended)
+__pycache__/
+*.py[cod]
+
+FaceX-Zoo/

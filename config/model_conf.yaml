@@ -1,0 +1,6 @@
+non-mask:
+  face_detection:
+    model_path: buffalo_l
+    det_size: [640, 640]
+  face_alignment:
+    model_path: builtin

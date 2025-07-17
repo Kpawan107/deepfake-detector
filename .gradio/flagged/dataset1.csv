@@ -1,0 +1,11 @@
+Upload Face Image,Prediction Results,timestamp
+,"Prediction: **Fake**
+
+CNN Score (Fake Probability): **0.67**
+
+FACTOR Similarity: **0.06**",2025-07-03 23:51:04.259358
+.gradio\flagged\Upload Face Image\dbf8fd4a5cd174a8f56a\WIN_20240602_13_43_42_Pro.jpg,"Prediction: **Fake**
+
+CNN Score (Fake Probability): **0.86**
+
+FACTOR Similarity: **-0.04**",2025-07-04 10:55:09.943427
