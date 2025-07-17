@@ -18,37 +18,11 @@ This project implements a hybrid Deepfake Detection framework that combines a CN
 - Celeb-DF V2  
 - Reference identity set of 419 public figures  
 
-## 📁 Project Structure
-
-
-deepfake-detection/
-│
-├── data/
-│   ├── raw_videos/           # Original videos
-│   ├── aligned_faces/        # Preprocessed aligned face images
-│   ├── reference_embeddings/ # FACTOR reference embeddings
-│   └── labels/               # Ground-truth labels
-│
-├── models/
-│   └── xception_focal_best.pth
-│
-├── scripts/
-│   ├── extract_frames.py
-│   ├── detect_and_align.py
-│   ├── train_xception.py
-│   ├── extract_feature.py
-│   └── eval.py
-│
-├── gradio_app.py
-└── README.md
-
-
 ## 🚀 Inference Demo
 
 Run the Gradio interface to test:
 
-bash
-python gradio_app.py
+python -m interface.app
 
 
 Upload a video or image and receive Real/Fake prediction with confidence score.
